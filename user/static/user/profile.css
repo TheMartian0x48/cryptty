@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+.container {
+  font-family: "IBM Plex Serif";
+  /* display: grid;
+  grid-template-columns: auto 600px auto; */
+  height: 95vh;
+}
+.profile {
+  /* grid-column: 2/2; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% auto;
+  height: 100%;
+}
+.left {
+  grid-column: 1/1;
+  display: grid;
+  grid-template-rows: 100px 250px auto;
+}
+
+.right {
+  grid-column: 2/2;
+  padding-top: 10px;
+}
+
+h1 {
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 50px;
+  text-align: center;
+}
+
+h1 > a {
+  text-decoration: none;
+  color: green;
+}
+h1 > a:hover {
+  color: blue;
+}
+
+p {
+  margin: 0px;
+  font-size: 17px;
+}
+
+.top {
+  grid-row: 1/1;
+}
+
+.avatar {
+  grid-row: 2/2;
+}
+
+.avatar img {
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.username {
+  grid-row: 3/3;
+  text-align: center;
+}
+
+.username img {
+  width: 15px;
+}
+
+#username {
+  font-size: 30px;
+}
+
+.right_top {
+  border-top: 1px solid green;
+  border-block: 1px solid green;
+}
+
+tr {
+  border-top: 1px solid green;
+}
+h2 {
+  margin: 5px 0px 5px 0px;
+  color: green;
+}
+pre {
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.public_key {
+  border-bottom: 1px solid green;
+}

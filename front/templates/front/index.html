@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'front/style.css' %}">
+  <title>Cryptty</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="dummpy"></div>
+    <div class="container">
+      <h1>
+        Cryptty
+      </h1>
+      <div class="but">
+        <button id="button-1">
+          <a href="{% url 'signin' %}">Sign In</a>
+        </button>
+        <button id="button-2">
+          <a href="{% url 'register' %}">Sign Up</a>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
